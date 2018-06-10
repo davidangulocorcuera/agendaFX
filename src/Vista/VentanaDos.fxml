@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Vista.VentanaDosController">
+   <children>
+      <Button fx:id="buttonclose" layoutX="315.0" layoutY="444.0" mnemonicParsing="false" onAction="#closeWindow" text="OK" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="90.0" prefHeight="46.0" prefWidth="208.0" text="Nombre">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="154.0" prefHeight="46.0" prefWidth="208.0" text="Apellido">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="219.0" prefHeight="46.0" prefWidth="208.0" text="Telefono">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nombre" layoutX="196.0" layoutY="98.0" prefHeight="31.0" prefWidth="267.0" />
+      <TextField fx:id="apellido" layoutX="196.0" layoutY="162.0" prefHeight="31.0" prefWidth="267.0" />
+      <TextField fx:id="telefono" layoutX="196.0" layoutY="227.0" prefHeight="31.0" prefWidth="267.0" />
+      <Button layoutX="384.0" layoutY="444.0" mnemonicParsing="false" onAction="#cancelar" text="Cancel" />
+   </children>
+</AnchorPane>
